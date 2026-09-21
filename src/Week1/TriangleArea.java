@@ -2,7 +2,7 @@ package Week1;
 
 public class TriangleArea {
     static void main(){
-        double base = 6;
+        double base = 8;
         double height = 3.14;
 
         double area = (base * height) / 2;
