@@ -7,15 +7,15 @@ public class AgeCheck {
         System.out.print("How old are you");
         int age = input.nextInt();
         if (age <= 11){
-            System.out.println("Sign up on the big stein form today");
+            System.out.println("You're still a kid.");
         }
 
         if (age >= 12 && age <= 17){
-            System.out.println("Near expiry");
+            System.out.println("Welcome, teenager!");
         }
 
         if (age >= 18){
-            System.out.println("Expired");
+            System.out.println("You're too old!");
         }
     }
 }
